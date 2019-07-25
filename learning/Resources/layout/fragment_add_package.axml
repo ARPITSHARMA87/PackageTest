@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/fragm_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/barcode_field_label" android:id="@+id/barcode_field_label" android:layout_alignParentTop="true" />
+    <EditText android:id="@+id/barcode_field_input" android:layout_height="wrap_content" android:layout_width="match_parent" android:lines="1" android:singleLine="true" android:hint="@string/barcode_field_hint_text" android:layout_below="@id/barcode_field_label" />
+    <TextView android:id="@+id/dimension_field_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dimension_field_label" android:layout_below="@id/barcode_field_input" android:layout_marginTop="@dimen/fragm_padding" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/dimension_field_label" android:layout_marginTop="@dimen/fragm_padding">
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:id="@+id/width_field" android:inputType="numberDecimal" android:layout_alignParentLeft="true" android:hint="@string/width_field_hint_text" />
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:id="@+id/height_field" android:inputType="numberDecimal" android:layout_centerInParent="true" android:hint="@string/height_field_hint_text" />
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:id="@+id/depdth_field" android:inputType="numberDecimal" android:layout_alignParentRight="true" android:imeOptions="actionDone" android:hint="@string/depdth_field_hint_text" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_alignParentBottom="true" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <Button android:layout_weight="1" android:id="@+id/save_button" android:text="@string/action_save" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAllCaps="false" />
+        <Button android:layout_weight="1" android:id="@+id/reset_button" android:text="@string/action_reset" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

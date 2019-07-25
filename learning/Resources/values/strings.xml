@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Packages</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Menu Items-->
+    <string name="scan_button_title">Scan Package</string>
+    <string name="add_button_title">Add Package</string>
+    <string name="show_button_title">Show Packages</string>
+    
+    <!-- Add Fragment-->
+    <string name="action_save">Save</string>
+    <string name="action_reset">Reset</string>
+    <string name="barcode_field_label">Enter Barcode</string>
+    <string name="dimension_field_label">Enter Dimms Width x Height x Depth</string>
+    <string name="barcode_field_hint_text">Enter Barcode</string>
+    <string name="width_field_hint_text">W</string>
+    <string name="height_field_hint_text">H</string>
+    <string name="depdth_field_hint_text">D</string>
+</resources>

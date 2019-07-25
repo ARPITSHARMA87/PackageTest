@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+   <Button android:id="@+id/AddButton"
+           android:text="@string/add_button_title"
+           android:layout_height="@dimen/btn_height" 
+           android:layout_width="@dimen/btn_width"
+           android:layout_marginTop="@dimen/btn_margin_top"
+           android:layout_centerInParent="true" 
+           android:textAllCaps="false"/>
+    
+   <Button android:id="@+id/ShowButton"
+           android:text="@string/show_button_title"
+           android:layout_below="@id/AddButton"
+           android:layout_height="@dimen/btn_height" 
+           android:layout_width="@dimen/btn_width"
+           android:layout_marginTop="@dimen/btn_margin_top"
+           android:layout_centerInParent="true" 
+           android:textAllCaps="false"/>
+</RelativeLayout>
